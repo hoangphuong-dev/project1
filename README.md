@@ -12,7 +12,7 @@ Website bán thú cưng :
 	- thêm vào giỏ hàng , 			(kh có tài khoản) 
 	- mua hàng/ đặt hàng, 			(kh có tài khoản) 
 	- tìm kiếm 
-*Admin :
+* Admin :
  	- Quản lý khách hàng , 			xem, xoá 
 	- Quản lý hoá đơn , 			Xem, duyệt, huỷ đơn 
 	- Quản lý sản phẩm , 			xem, thêm, sửa, xoá 
