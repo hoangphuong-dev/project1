@@ -1,0 +1,377 @@
+.div_chao {
+	width: 10%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding: 20px 0 0 20px;
+	color: black;
+}
+.div_chao >.div_nen {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0; top: 0;
+	width: 100%;
+	height:100%;
+}
+.div_chao >.div_nen >.div_dang_xuat {
+	background-color: #c1c1c1;
+	width: 16%;
+	border-radius: 10px;
+	height: auto;
+	position: absolute;
+	top: 100px;
+	right: 78px;
+	text-align: left;
+}
+.div_chao >.div_nen >.div_dang_xuat ul {
+	list-style: none;
+	padding: 0;
+}
+.div_chao >.div_nen >.div_dang_xuat ul li {
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+	position: relative;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.div_chao >.div_nen >.div_dang_xuat ul li:hover {
+	background: #f9b234;
+}
+.div_chao >.div_nen >.div_dang_xuat ul li i {
+	padding-right: 20px;
+	padding-bottom: : 30px;
+	color: black;
+}
+.div_chao >.div_nen >.div_dang_xuat ul li a {
+	margin-bottom: 20px;
+	font-size: 17px;
+	color: black;
+}
+.div_chao  i {
+	font-size: 28px;
+	padding-bottom: 10px;
+}
+
+/* css cho bảng và form insert_update  */
+.all_table {
+	width: 90%;
+	height: auto;
+	opacity: 0.9;
+	margin-top: 3px;
+	/* background: red; */
+}
+.all_table table {
+	width: 100%;
+	background: white;
+	opacity: 0.9;
+}
+.all_table table td {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.all_table h4 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.all_table table tr#row1 {
+	background: #1d96b2;
+	color: white;
+}
+.all_table table tr:nth-child(odd){
+	background: #b7bec1;
+}
+.all_table table tr:nth-child(even) {
+	background: white;
+}
+.all_table button {
+	font-size: 15px;
+	padding: 2px 4px;
+	margin-left: 20px; 
+}
+
+.all_table table tr#ROW1 {
+	background: #F9B234;
+	color: black;
+	font-weight: 600;
+} 
+.insert_update {
+	width: 90%;
+	height: auto;
+	opacity: 0.9;
+	margin-top: 4px;
+	padding: 50px;
+}
+.kh { /* thay ảnh cho form khách hàng */
+	background-image: url('../image/nen_khach_hang.jpg');
+	margin: auto;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.insert_update form{
+	width: 70%;
+	margin: auto;
+	padding: 10px 0 20px 50px;
+	background: #fed18c;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.insert_update form table select{
+	width: 22.5%;
+}
+.insert_update h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+}
+.insert_update button {
+	background-color: lightgreen;
+	font-weight: bold;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 70%;
+	cursor: pointer;
+}
+/* css cho file all_san_pham, all_khach_hang */
+.div_1 {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 10px;
+	margin-bottom: 20px; 
+	/* background: red; */
+}
+.div_1 >.tong_san_pham {
+	height: 100%;
+	width: 60%;
+	/* background: orange;  */
+	float: left;
+}
+.div_1 >.tong_san_pham p{
+	font-weight: bold;
+	color: #EDB14C;
+	padding-top: 20px;
+}
+.div_1 >.tong_san_pham button{
+	margin-bottom: 2%;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 8px;
+	background: #fac15d;
+	border: 1px solid #eff6e0;
+	cursor: pointer;
+}
+.div_1 >.tong_san_pham button a{
+	text-decoration: none;
+	color: black;
+}
+.div_1 >.tim_kiem {
+	height: 100%;
+	width: 40%;
+	float: left;
+	/* background: green; */
+	text-align: right;
+	position: relative;
+}
+.div_1 >.tim_kiem input{
+	padding: 10px;
+	font-size: 12px;
+	border: 1px solid #fed18c;
+	width: 300px;
+	position: absolute;
+	right: 0;
+	border-radius: 5px;
+}
+.div_1 >.tim_kiem button{
+	padding: 11px;
+	font-size: 11px;
+	position: absolute;
+	top: 1px;
+	border: none;
+	right: 1px;
+	border-radius: 0 4px 4px 0;
+}
+/* đây là div phân trang */
+.div_so_trang {
+	width: 100%;
+	padding: 10px 0 10px 0;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+}
+.div_so_trang a {
+	color: black;
+	margin: auto;
+	padding: 8px 15px;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+
+.div_so_trang a.active {
+	background-color: #f9b234;
+	border-radius: 2px;
+	color: white;
+}
+.div_so_trang a:hover:not(.active) {
+	background-color: #ddd;
+	border-radius: 2px;
+}
+/* kết thúc div_phan_trang */
+.div_table {
+	width: 100%;
+	float: none;
+	padding: 30px 50px;
+	height: auto;
+	/* background: green; */
+}
+.div_table table td a {
+	font-size:36px;
+}
+
+.div_hover {
+	position: relative;
+	display: inline-block;
+	/* background : red; */
+}
+
+.div_hover .span_duyet_huy {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	border-radius: 6px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-left: -70px;
+
+	/* position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+.div_hover:hover .span_duyet_huy {
+	visibility: visible;
+	transition: 0.3s;
+}
+
+.div_sua,
+.div_them {
+	background: #d8bc90;
+	width: 80%; 
+	margin-left: 10%;
+	height: 30%; 
+	margin-bottom: 20px; 
+	float: left;
+}
+.div_sua h3,
+.div_them  h3{
+	text-align: center;
+	font-size: 25px;
+}
+.div_sua table input,
+.div_them table input{
+	margin-top: 30px; 
+}
+.div_sua table button,
+.div_them table button{
+	width: 100px;
+	background: lightgreen;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.div_sua table td,
+.div_them table td{
+	height: 10px;
+	background: #dabe91;
+	padding: 0px 20px;
+}
+
+
+.image-upload > input {
+	display: none;
+}
+
+.image-upload i {
+	width: 173	px;
+	height: 35px;
+	margin-left: 22px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 23px;
+	background: #a8a8a8;
+	cursor: pointer;
+}
+.image-upload i span {
+	font-size: 14px; 
+	padding-left: 8px;
+	font-family: arial, helvetica, sans-serif;
+}
+.key_search {
+	color: red;
+	margin-left: -30px;
+}
+.select_ngay_thang {
+	width: 20%; 
+	margin-right: 25px;
+}
+.update_in4 {
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.9;
+	margin-top: 2px;
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+.update_in4 form {
+	width: 70%; 
+	margin: auto; 
+	opacity: 0.9;
+	margin-bottom: 50px; 
+	height: 75%; 
+	background: #fac15d; 
+	margin-top: 8%; 
+	padding-top: 20px; 
+	border-radius: 10px;
+}
+.update_in4 form h2 {
+	text-align: center;
+	margin-bottom: 50px
+}
+.update_in4 form table {
+	width: 90%; 
+	margin:auto;
+}
+.update_in4 form table td button {
+	font-size: 20px;
+	padding: 8px;
+	border-radius: 5px; 
+	border: 1px solid #eff6e0; 
+	margin-top: 50px; 
+	margin-left: 34%; 
+	width: 30%; 
+	cursor: pointer; 
+	background: lightgreen
+}
+button.quay_lai {
+	padding: 8px;
+	border-radius: 4px;
+	border: none;
+	margin: 2% 0 0 2%;
+	cursor: pointer;
+	background: #f9b234;
+}
+button.quay_lai i {
+	margin-right: 10px;
+}

@@ -1,0 +1,101 @@
+* {
+	background: #2C3338;
+	padding: 0;
+	padding:0;
+}
+.div_dang_nhap  {
+	margin-top: 150px; 
+}
+.div_dang_nhap form {
+	width: 400px;
+	height: 500px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: rgba(3,3,3,0.25);
+	box-shadow: 1px 1px 20px #000;
+}
+.div_dang_nhap h1 {
+	padding: 10px 0 10px 70px;
+	color: white;	
+}
+input[type=email],
+input[type=password] {
+	font-family: 'Raleway', Arial, sans-serif;
+	color: #E9EBEC;
+	width: 290px;
+	height: 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 40px; 
+}
+button.dang_nhap {
+	font-family: 'Raleway', Arial, sans-serif;
+	border: none;
+	background-color: black;
+	border-radius: 5px;
+	color: #B3B3B3;
+	cursor: pointer;
+	padding: 20px 40px;
+	display: inline-block;
+	margin: 70px 90px 30px 100px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1em;
+	position: relative;
+	overflow: hidden;
+}
+
+button.dang_nhap:before {
+	border-radius: 3px;
+	content: '';
+	display: block;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 50%;
+	bottom: 50%;
+	background-color: #ffffff;
+	border-top: 2px solid rgba(255, 255, 255, 0.8);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+button.dang_nhap:hover,
+button.dang_nhap.hover {
+	color: #ffffff;
+	-webkit-animation: flashText 0.5s;
+	animation: flashText 0.5s;
+}
+
+button.dang_nhap:hover:before,
+button.dang_nhap.hover:before {
+	top: 15%;
+	bottom: 15%;
+	background-color: rgba(255, 255, 255, 0.1);
+	opacity: 0.8;
+}
+button.dang_nhap:active:before {
+	background-color: rgba(255, 255, 255, 0.3);
+	opacity: 1;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.div_dang_nhap a {
+	color: #4B5358;
+	padding-left: 130px;
+	background: #22272B;
+	text-decoration: none;	
+}
+.div_dang_nhap a:hover {
+	color: #D3D5D7;
+	text-align: center;
+	text-decoration: none;	
+}

@@ -1,0 +1,48 @@
+.div_content {
+	width: 90%; height: auto; background: #F1F3F6; margin: auto;
+	float: none; margin-top: 3px;
+}
+.div_content h1 {
+	text-align: center; padding: 20px 10px;
+}
+.div_content form {
+	width: 80%;
+	height: auto;
+	background: #FAC15D;
+	margin: auto;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+.div_content form table {
+	width: 95%; margin: auto;
+}
+.div_content form table button {
+	background-color: lightgreen;
+	font-weight: bold;
+	padding: 15px;
+	margin: 20px 0 10px 40%;
+	border-radius: 10px;
+	width: 25%;
+}
+.div_content form table .div_anh {
+	width: 94%; height: auto;
+}
+.div_content form table .div_anh img {
+	width: 100%; border-radius: 3px;
+}
+.div_content form input,
+.div_content form textarea {
+	width: 95%; font-size: 15px;
+}
+.div_content form textarea {
+	height: 200px;
+}
+p.huong_dan {
+	padding: 50px 0 20px 20px; font-size: 20px;
+}
+.hd_chi_tiet {
+	width: 80%; margin-left: 5%; padding-bottom: 10%;
+}
+.hd_chi_tiet i {
+	font-size: 20px; padding: 15px;
+}
